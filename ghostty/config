@@ -1,0 +1,11 @@
+font-size = 14
+window-padding-x = 12
+window-padding-y = 10
+
+background-opacity = 0.98
+
+cursor-style = block
+
+copy-on-select = clipboard
+
+shell-integration = fish
