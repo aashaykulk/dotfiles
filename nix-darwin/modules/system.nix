@@ -1,10 +1,9 @@
 { pkgs, ... }:
 
+
 {
   environment.systemPackages = with pkgs; [
-    neovim
     git
-    tmux
     ripgrep
     fd
     fzf
@@ -14,11 +13,15 @@
     btop
     ffmpeg
     fastfetch
-    yazi
     typst
-    starship
-    nixfmt
     lazygit
+
+    nixfmt
+    luaPackages.luacheck
+    stylua
+    lua-language-server
+    nil
+    clang-tools
   ];
 
   nix.package = pkgs.lix;
@@ -30,11 +33,11 @@
   system.primaryUser = "aashay";
 
   system.defaults = {
-   dock = {
-    autohide = true;
-    autohide-delay = 0.0;
+    dock = {
+      autohide = true;
+      autohide-delay = 0.0;
     };
-   };
+  };
 
   users.users.aashay = {
     name = "aashay";
