@@ -1,7 +1,9 @@
-font-size = 14
+font-family = IBM Plex Mono
+font-size = 16
 window-padding-x = 12
 window-padding-y = 10
 
+theme = Kanagawa Wave
 background-opacity = 0.98
 
 cursor-style = block

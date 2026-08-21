@@ -1,4 +1,4 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:4300
-SETUVAR fish_user_paths:/run/current\x2dsystem/sw/bin\x1e/nix/var/nix/profiles/default/bin
+SETUVAR fish_user_paths:/etc/profiles/per\x2duser/aashay/bin\x1e/Applications/Ghostty\x2eapp/Contents/MacOS\x1e/run/current\x2dsystem/sw/bin\x1e/nix/var/nix/profiles/default/bin
