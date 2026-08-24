@@ -1,6 +1,5 @@
 { pkgs, ... }:
 
-
 {
   environment.systemPackages = with pkgs; [
     git
@@ -14,6 +13,7 @@
     ffmpeg
     fastfetch
     typst
+    tinymist
     lazygit
 
     nixfmt
